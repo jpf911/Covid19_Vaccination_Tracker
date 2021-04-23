@@ -1,0 +1,20 @@
+{% extends 'vaccinated/base.html' %}
+
+
+{% block content %}
+    {% load static %}
+<div style="width: 500px; margin:50px auto">
+    <div style="text-align:center; padding-bottom:50px">
+
+    <p>Last Name: {{patient.Last_name}}</p>
+    <p>First Name: {{patient.First_name}}</p>
+    <p>Contact: {{patient.Contact}}</p>
+    <p>Barangay: {{patient.Barangay}}</p>
+    <p>House: {{patient.House}}</p>
+    <p>City: {{patient.City}}</p>
+    <p>Age: {{patient.Age}}</p>
+    <p>DoB: {{patient.DoB}}</p>
+    <p>DoB: {{patient.Vaccine}}</p>
+        </div>
+</div>
+{% endblock %}
